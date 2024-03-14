@@ -1,0 +1,19 @@
+.login-modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.login-modal-content * {
+  font-family: 'Inconsolata', sans-serif;
+}
+.close-btn {
+  font-family: 'Montserrat', sans-serif;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -40%;
+  right: -5%;
+  color: darkgrey;
+}

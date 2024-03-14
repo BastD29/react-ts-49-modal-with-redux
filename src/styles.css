@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&family=Montserrat:wght@300;500;600&display=swap');
+
+:root {
+  font-family: Montserrat;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 242, 242);
+  background-image: radial-gradient(
+    rgba(31, 41, 55, 0.2) 0.5px,
+    rgb(242, 242, 242) 0.5px
+  );
+  background-size: 5px 5px;
+  background-position: top;
+  background-repeat: repeat;
+}
+
+button {
+  font-family: Montserrat;
+  min-width: 5rem;
+  min-height: 2rem;
+}
